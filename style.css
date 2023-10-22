@@ -1,0 +1,327 @@
+/* genarel   css*/
+ /*.clearfix*/
+ .clearfix {
+  clear: both;
+}
+/* container */
+.container{
+
+  width: 80%;
+  margin: auto;
+
+}
+.size-image{
+  width: 40px;
+  vertical-align: middle;
+ 
+}
+
+/* header */
+.header{
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  font-family: 'Alegreya', serif;
+  
+}
+.header h1{
+  font-size: 60px;
+  font-weight: 400px;
+}
+.header p{
+  font-size: 20px;
+}
+
+
+.header button{
+    padding: 20px 40px;
+    border-radius: 3px;
+    
+    
+   
+}
+
+/*backround button*/
+.bg-color{
+    background-color: #5B4533;
+    border-color: #ffffff07;
+    color:white;
+    font-family: Alegreya;
+     font-size: 16px;
+   font-weight: 700px;
+    
+}
+/*backround button*/
+.no-bg-color{
+    background-color: #ffffff07;
+    border-color: #ffffff;
+    color:white;
+    font-family: Alegreya;
+    font-size: 16px;
+    font-weight: 400px;
+    
+   
+}
+.header img{
+        position: absolute;
+        top: 4%;
+        left:4%;
+        width: 160px;
+       
+     
+}
+
+
+/* navbar */
+
+  
+  .topnav a {
+    color: #ffffff;
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    
+  }
+
+  .header p,h1{
+  color: #ffffff;
+  
+
+  }
+ 
+
+/* Who we are */
+
+.who-are{
+  margin-top: 50px;
+   width: 100%; 
+  
+ 
+}
+
+.who-are-item h2{
+  font-family: Alegreya;
+  font-size: 32px;
+  font-weight: 400px;
+}
+.who-are-item p{
+  font-family: "Alegreya";
+  font-size: 17px;
+  font-weight: 400px;
+  color: #686868;
+}
+
+.who-are img{
+  vertical-align: middle;
+  margin-left: 40px;
+
+}
+
+.who-are-item{
+  display: inline-block;
+  width: 45%;
+  margin-left: 30px;
+  padding: 10px; 
+  vertical-align: top;
+  
+ 
+ }
+ 
+
+ .border-img
+ {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F8F8F8;
+
+
+ }
+
+ /* our-location */
+  .our-location{
+    background-color: #F8F8F8;
+    margin-top: 50px;
+     
+
+  }
+   .location-info ,location-img
+   {
+    /* display: inline-block; */
+    width: 50%; 
+    float: left;
+   }
+
+   
+.location-info h2{
+  font-family: Alegreya;
+  font-size: 32px;
+  font-weight: 400px;
+  color: #303030;
+}
+.location-info p{
+  font-family: "Alegreya";
+  font-size: 17px;
+  font-weight: 400px;
+  color: #686868;
+}
+   
+   
+  /*our-baking  */
+.our-baking{
+ 
+  text-align: center;  
+  padding: 50px 0px;
+ 
+}
+
+.baking-item{
+
+  width: 33.333%;
+  float: left;
+  
+}
+
+.baking-item img{
+  width: 90%;
+}
+
+.baking-item p{
+  padding: 10px;
+}
+
+
+.header-baking h3{
+  font-family: Alegreya;
+  font-size: 30px;
+  font-weight:400;
+}
+.header-baking p{
+  font-family: Alegreya;
+  font-size: 17px;
+  font-weight:400;
+  color: #888888;
+}
+.baking-item h2{
+  font-family: Alegreya;
+  font-size: 22px;
+  font-weight:400;
+  color: #303030;
+}
+
+.baking-item p{
+  font-family: Alegreya;
+  font-size: 17px;
+  font-weight:400;
+  color:  #686868;
+}
+/* Contact Information */
+
+.info{
+  background-color: #F8F8F8;
+  margin-top: 50px;
+
+  
+}
+ .text-info 
+ {
+ 
+  width: 50%;
+   float: left;
+  padding: 10px;
+  margin-top: 20px;
+  
+ }
+
+info-img img{
+  vertical-align:middle;
+ margin-top: 20px;
+}
+
+.border-info-img
+ {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:#5B4533;
+
+
+ }
+
+
+ .text-info h2{
+  font-family: Alegreya;
+  font-size: 32px;
+  font-weight:400;
+  color: #303030;
+
+ }
+ .text-info p, h4{
+  font-family: Alegreya;
+  font-size: 17px;
+  font-weight:400;
+  color: #686868;
+ }
+
+
+
+/* footer */
+
+.footer{
+  background-color: #403D38; 
+} 
+ .footer h4 {
+  color: #ffffff;
+ }
+
+ .footer-item{
+ 
+  width: 20%;
+  float: left;
+  margin: 15px;
+  padding: 10px;
+  color: #686868;
+  
+  
+}
+
+.footer-img{
+  background-color:#353330 ;
+  text-align: center;
+}
+
+.footer-img p{
+  margin-left: 0px;
+  font-family: Alegreya;
+  font-size: 14px;
+  font-weight:400;
+  color:  #969696
+}
+.border-footer-img
+ {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:#403D38; ;
+   
+
+ }
+
+ .footer-item h4{
+
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight:400;
+  color:  #ffffff
+ }
+ .footer-item p{
+  margin-left: 0px;
+  font-family: Alegreya;
+  font-size: 16px;
+  font-weight:400;
+  color:  #969696
+ }
